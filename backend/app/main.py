@@ -8,7 +8,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://moneysence-innova.onrender.com"],
+    allow_origins=["https://money-sence-innova-d4fmad8rz-tech-visioners.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
