@@ -26,7 +26,7 @@ export default function Dashboard() {
 
     const fetchDashboardData = async () => {
       try {
-        const response = await fetch(`http://127.0.0.1:8000/api/dashboard/${uid}`);
+        const response = await fetch(`https://moneysence-innova.onrender.com/api/dashboard/${uid}`);
         const result = await response.json();
         if (result.status === "success") {
           setDashboardData(result.data);

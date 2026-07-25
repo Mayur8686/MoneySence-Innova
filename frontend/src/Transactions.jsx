@@ -13,7 +13,7 @@ useEffect(() => {
 
     const uid = localStorage.getItem("uid");
 
-    fetch(`http://127.0.0.1:8000/transactions?uid=${uid}`)
+    fetch(`https://moneysence-innova.onrender.com/transactions?uid=${uid}`)
         .then(res => res.json())
         .then(data => {
             console.log(data);

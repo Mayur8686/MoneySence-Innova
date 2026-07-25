@@ -29,7 +29,7 @@ export default function Profile() {
   });
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:8000/profile?uid=${uid}`)
+    fetch(`https://moneysence-innova.onrender.com/profile?uid=${uid}`)
       .then((res) => res.json())
       .then((data) => {
         console.log("Profile:", data);
@@ -47,7 +47,7 @@ export default function Profile() {
 
   const saveProfile = async () => {
 
-    const response = await fetch("http://127.0.0.1:8000/profile", {
+    const response = await fetch("https://moneysence-innova.onrender.com/profile", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
