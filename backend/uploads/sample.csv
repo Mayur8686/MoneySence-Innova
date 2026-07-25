@@ -1,0 +1,6 @@
+Date,Amount,Merchant,Payment Type,Type
+2026-07-25,250,Amazon,UPI,Debit
+2026-07-25,500,Swiggy,UPI,Debit
+2026-07-24,1200,Salary,NEFT,Credit
+2026-07-23,399,Netflix,CARD,Debit
+2026-07-26,501,PCU,UPI,Debit
